@@ -7,7 +7,7 @@ Homebrew formula for Nike OSS projects.
 To use formula's from Nike OSS projects, you'll need to add this tap to Homebrew:
 
 ```sh
-brew tab nike-inc/nike
+brew tap nike-inc/nike
 ```
 
 
