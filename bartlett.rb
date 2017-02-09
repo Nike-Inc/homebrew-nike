@@ -2,8 +2,8 @@ class Bartlett < Formula
 
   desc "A simple Jenkins command line client to serve your needs."
   homepage "https://github.com/Nike-Inc/bartlett"
-  url "https://github.com/Nike-Inc/bartlett/releases/download/1.3.0/bartlett-static-1.3.0.tar.gz"
-  sha256 "9e50fbad8d58770472b29e917979179fdf5dd9afb07ae1d6cc8a9622348903cf"
+  url "https://github.com/Nike-Inc/bartlett/releases/download/1.4.0/bartlett-static-1.4.0.tar.gz"
+  sha256 "d5034321dc5c5eef5f799c55e25c43d48a7b8460956e0014cb98db83e37c132a"
 
   def install
     bin.install "bartlett"
