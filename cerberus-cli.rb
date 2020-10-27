@@ -1,13 +1,13 @@
 class CerberusCli < Formula
   desc "A CLI for the Cerberus API."
   homepage "http://engineering.nike.com/cerberus"
-  url "https://github.com/Nike-Inc/cerberus-cli/releases/download/v0.11.1/cerberus-cli-darwin-amd64"
-  sha256 "c81225a56f20cd5520c262d775c0395bdcb073bd4a2b82d1055a1eb19b1269c6"
-  version "v0.11.1"
+  url "https://github.com/Nike-Inc/cerberus-cli/releases/download/v1.0.0/cerberus-cli-darwin-amd64"
+  sha256 "a3b3e263c4ebbfec9ea1e8ad4bbe914fd7b1cee8541fb5740d63c466d45220c6"
+  version "v1.0.0"
 
   resource "additional_files" do
-    url "https://github.com/Nike-Inc/cerberus-cli/archive/v0.11.1.tar.gz"
-    sha256 "5f64b17c98afd850b1309eec130923983030b235bdbfc906693bd6a586c18a7d"
+    url "https://github.com/Nike-Inc/cerberus-cli/archive/v1.0.0.tar.gz"
+    sha256 "902a4e7c62168586da736f0f52906c723cc15565f7adb995b6de7149f7c0f716"
   end
 
   option "with-completion"
@@ -27,4 +27,3 @@ class CerberusCli < Formula
     system "#{bin}/cerberus", "help"
   end
 end
-
